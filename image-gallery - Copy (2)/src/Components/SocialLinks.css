@@ -1,0 +1,57 @@
+
+.social-links img {
+  width: 100px;
+  height: 100px;
+  margin: 0 10px;
+  transition: all 0.5s ease-in-out;
+}
+.social-links .ig {
+  width: 100px;
+  height: 100px;
+}
+.container1 {
+  position: relative; /* set the container to be a positioning context */
+  height: 500px; /* set the height of the container */
+  background-size: cover;
+}
+
+.social-links {
+  position: absolute; /* position the social links absolutely */
+  bottom: 0; /* set the bottom position to 0 to make it stay at the bottom */
+  left: 0; /* set the left position to 0 to align the links to the left */
+  width: 100%; /* set the width to 100% to make it full width */
+  display: flex; /* use flexbox to align the links */
+  justify-content: center; /* center the links horizontally */
+  padding: 20px; /* add some padding for spacing */
+  box-sizing: border-box; /* include padding and border in the width */
+  background-color: none; /* add a semi-transparent white background */
+}
+
+.social-links a {
+  margin: 0 10px; /* add some margin between the links */
+  color: #000; /* set the color of the links */
+}
+
+.social-links img:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 600px) {
+  .social-links img {
+    width: 70px;
+    height: 70px;
+    margin: 0 10px;
+    transition: all 0.5s ease-in-out;
+  }
+  .social-links .ig {
+    width: 74px;
+    height: 74px;
+  }
+  
+    
+  
+
+  .social-links img:hover {
+    transform: scale(1.2);
+  }
+}

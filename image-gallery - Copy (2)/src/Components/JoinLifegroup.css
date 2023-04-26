@@ -1,0 +1,125 @@
+.join-lifegroup {
+    margin: -13px auto;
+    max-width: 800px;
+  text-align: center;
+}
+  
+
+.join-group2 label {
+  text-align: left;
+  display: block;
+  margin-bottom: 5px;
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  input, select {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+  }
+
+  button {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    width: 130px;
+    height: 50px;
+  }
+  button:hover {
+    background-color: #ff6f3c;
+  }
+  .join-group2 input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+    display: flex;
+  }
+  .png-image {
+    max-width: 50%;
+      margin-bottom: -10px;
+      transition: all 0.5s ease-in-out;
+  }
+  .join-lifegroup2-container {
+    justify-content: right;
+  }
+  .png-image:hover {
+    transform: scale(1.2);
+  }
+  
+  
+  
+  @media (max-width: 600px) {
+    .join-lifegroup {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+
+    }
+  
+    .join-group {
+      width: 80%;
+        
+    }
+    .join-group2 label {
+      text-align: left;  
+      align-items: center;
+  }
+    
+    .join-group2 label {
+      text-align: left;  
+      align-items: center;
+  }
+    button {
+      margin-top: 10px;
+    }
+    .png-image {
+      max-width: 30%;
+      margin-bottom: -20px;
+    }
+    .join-lifegroup-container form {
+      width: 90%;
+    }
+  }
+  @media (min-width: 1194px) and (max-width: 834px) and (orientation: portrait) {    
+    
+    .join-lifegroup2-container form {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      max-width: 100%;
+    }
+    
+    .join-group2 label {
+      text-align: left;  
+      align-items: center;
+  }
+    
+    .join-group2 label {
+      text-align: left;  
+      align-items: center;
+  }
+    button {
+      margin-top: 10px;
+    }
+    .png-image {
+      max-width: 30%;
+      margin-bottom: -20px;
+    }
+    
+  }

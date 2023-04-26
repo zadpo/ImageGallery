@@ -1,0 +1,105 @@
+
+.prayer-request h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.prayer-request form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+  
+}
+
+.prayer-request .form-group1 {
+  width: 85%;
+  margin-bottom: 20px;
+  
+}
+
+.prayer-request label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+
+.prayer-request textarea {
+  width: 85%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.prayer-request button {
+  background-color: #ffffff;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.prayer-request button:hover {
+  background-color: #ff6f3c;
+}
+.prayer-request {
+  background:  #155263;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin: 200px auto;
+  max-width: 700px;
+  max-height: 700px;
+  text-align: center;
+  box-shadow: 5px 10px #333;
+  margin-top: 50px;
+}
+.form-group1 {
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.png1-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+transition: all 0.5s ease-in-out;
+}
+.png1-image img {
+width: 100px;
+height: 100px;
+margin-top: 10px;
+}
+
+
+@media (max-width: 600px) {
+  .prayer-request {
+      width: 85%;
+      padding: 10px;
+      max-width: 90%;
+      float: none;
+  }
+  .prayer-request form {
+      display: flex;
+      flex-direction: column;
+      
+  }
+  .form-group1 {
+      margin-bottom: 10px;
+      text-align: center;
+      width: 10px;
+
+  }
+  button[type="submit"] {
+      margin-top: 10px;
+  }
+  
+}
+
